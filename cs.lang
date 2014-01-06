@@ -13,30 +13,30 @@
 
 #============Main Page====================
 mainfo trichbutton37: trichbutton
-  caption=Package Management
+  caption=Správa balíčků
 
 mainfo b_mylist: trichbutton
-  caption=My list of packages
+  caption=Můj seznam balíčků
 
 mainfo trichbutton39: trichbutton
-  caption=Tasks
+  caption=Úkoly
 
 mainfo b_news: trichbutton
-  caption=News
+  caption=Novinky
 
 mainfo trichbutton5: trichbutton
-  caption=Logs
+  caption=Logy
   hint=Pacman Logs
 
 mainfo trichbutton38: trichbutton
-  caption=Settings
+  caption=Nastavení
   hint=Interface
 
 mainfo b_errors: trichbutton
-  caption=There are some error and warnings! Click here to see them
+  caption=Jsou zde nějaké chyby a varování! Klikněte sem pro zobrazení
 
 mainfo l_newver: tlabel
-  caption=A new version of PacmanXG is available!
+  caption=Nová verze PacmanXG je dostupná!
   
 
 #=======Package Management Page===========
@@ -45,151 +45,151 @@ mainfo twf: twidgetgrid
   caption=
   caption=
   caption=
-  caption=Package
-  caption=Package
+  caption=Balíček
+  caption=Balíček
   caption=
-  caption=Installed Version
-  caption=Available Version
-  caption=Group(s)/Votes(AUR)
-  caption=Repository
-  caption=Category
-  caption=Description
-  caption=Size (MB)
+  caption=Instalovaná verze
+  caption=Dostupná verze
+  caption=Skupina(y)/Hlasy(AUR)
+  caption=Rapozitář
+  caption=Kategorie
+  caption=Popis
+  caption=Velikost (MB)
 
 mainfo b_install_file2: trichbutton
-  caption=File
+  caption=Soubor
 
 mainfo l_find_package_for_file: tlabel
   caption=Find Out Which Package a Specific File Belongs To
 
 
 mainfo b_findpackage_with_pacman: trichbutton
-  caption=Find with pacman
+  caption=Najít s pacman
 
 mainfo b_findpackage_with_pkgfile: trichbutton
-  caption=Find with pkgfile
+  caption=Najít s pkgfile
 
 #===Panel with info=======================
 
 mainfo ttabpage16: ttabpage
-  caption=Short Info
+  caption=Krátké info
 
 mainfo l_pkgname_capt: tlabel
-  caption=Package: 
+  caption=Balíček: 
 
 mainfo tlabel9: tlabel
-  caption=Repository: 
+  caption=Rapozitář: 
 
 mainfo l_pkginfo_capt: tlabel
-  caption=Description: 
+  caption=Popis: 
 
 mainfo l_thumb: tlabel
-  caption=No Screenshot#10Available
+  caption=Bez snímku
 
 mainfo ttabpage17: ttabpage
-  caption=Full Info
+  caption=Plné info
 
 mainfo ttabpage8: ttabpage
-  caption=Package File List
+  caption=Seznam souborů balíčku
 
 mainfo ttabpage14: ttabpage
-  caption=Check Package
+  caption=Zkontrolovat balíček
 
 mainfo ttabpage4: ttabpage
-  caption=Package Tree
+  caption=Strom Balíčku
 
 
 #============Filter Panel=================
 
 
 mainfo ber_aur: tbooleanedit
-  frame.caption=Incl AUR
+  frame.caption=Včetně AUR
 
 mainfo b_del_all: trichbutton
-  caption=All
+  caption=Vše
 
 mainfo b_ins_all: trichbutton
-  caption=All
+  caption=Vše
 
 
 mainfo ber_exact: trichbutton
-  frame.caption=Exact Match by Name
+  frame.caption=Přesná shoda názvu
 
 mainfo ber_all: tbooleaneditradio
-  frame.caption=All Packages
+  frame.caption=Všechny balíčky
 
 mainfo dd_ag1: tbooleaneditradio
-  frame.caption=By Group
+  frame.caption=Podle skupiny
 
 mainfo ber_ins: tbooleaneditradio
-  frame.caption=Installed
+  frame.caption=Instalováno
 
 mainfo dd_ar1: tbooleaneditradio
-  frame.caption=By Repository
+  frame.caption=Podle repozitáře
 
 mainfo dd_cat_all1: tbooleaneditradio
-  frame.caption=By Category
+  frame.caption=Podle kategorie
 
 mainfo ber_expls: tbooleaneditradio
-  frame.caption=Explicitly Installed
+  frame.caption=Explicitně nainstalováno
 
 mainfo ber_orfans: tbooleaneditradio
-  frame.caption=Orphans
+  frame.caption=Sirotci
 
 mainfo ber_haveupdate: tbooleaneditradio
-  frame.caption=Updates
+  frame.caption=Aktualizace
 
 mainfo be_query_all: tbooleaneditradio
   frame.caption=Query
 
 mainfo be_query_ins: tbooleaneditradio
-  frame.caption=For Installation
+  frame.caption=K instalaci
 
 mainfo be_query_del: tbooleaneditradio
-  frame.caption=For Removal
+  frame.caption=Ke smazání
 
 mainfo ber_deps: tbooleaneditradio
-  frame.caption=Installed as depences
+  frame.caption=Nainstalováno jako závislost
 
 #===========Tasks==============================
 
 mainfo b_updatesystem: trichbutton
-  caption=Update System
+  caption=Aktualizovat systém
 
 mainfo trichbutton19: trichbutton
-  caption=Upgrade AUR Packages
+  caption=Aktualizovat AUR balíčky
 
 
 mainfo b_sinh: trichbutton
-  caption=Synchronize Mirrors
+  caption=Synchronizovat zrcadla
 
 mainfo trichbutton22: trichbutton
-  caption=ReDownload Installed Packages
+  caption=Znovu stáhnout nainstalované balíčky
 
 mainfo b_save_packagelist: trichbutton
-  caption=Save List of Packages
+  caption=Uložit seznam balíčků
 
 mainfo b_cleancache: trichbutton
-  caption=Clean Package Cache
+  caption=Vyčistit cache s balíčky
 
 mainfo b_restore_from_file: trichbutton
-  caption=Restore System from File
+  caption=Obnovit systém ze souboru
 
 mainfo b_findfastmirrors: trichbutton
-  caption=Find the 3 Fastest Mirrors
+  caption=Najít 3 nejrychlejší zrcadla
 
 mainfo trichbutton28: trichbutton
-  caption=ReInstall All Packages
+  caption=Znovu nainstalovat všechny balíčky
 
 mainfo b_cache_management: trichbutton
   caption=Cache management
-  hint=Cache management
+  hint=Správa cache
 
 mainfo b_cleancachef: trichbutton
-  caption=Fully Clean Package Cache
+  caption=Zcela vyčistit cache s balíčky
 
 mainfo b_remove_orfans: trichbutton
-  caption=Remove Orphans
+  caption=Odstranit sirotky
 
 mainfo d_term: trichbutton
   caption=X-Terminal
@@ -198,13 +198,13 @@ mainfo d_finav: trichbutton
   caption=File Navigator
 
 mainfo d_texteditor: trichbutton
-  caption=Text Editor
+  caption=Textový editor
 
 mainfo b_expl: trichbutton
-  caption=Mark Package as "Explicitly Installed"
+  caption=Označit balíček jako "Explicitně nainstalováno"
 
 mainfo b_dep: trichbutton
-  caption=Mark Package as "Installed as a Dependency"
+  caption=Označit balíček jako "Nainstalováno jako závislost"
 
 mainfo b_dizz: trichbutton
   caption=DisOwned Packages
@@ -212,201 +212,203 @@ mainfo b_dizz: trichbutton
 
 
 mainfo b_install_file: trichbutton
-  caption=Install a File
+  caption=Instalovat soubor
 
 mainfo b_dowgrade_pkg: trichbutton
-  caption=Downgrade Package
-  hint=Downgrade Package
+  caption=Downgrade balíčku
+  hint=Downgrade balíčku
 
 
 #=============Logs===========================
 
 mainfo wg_log_dates: twidgetgrid
-  frame.caption=By Date:
+  frame.caption=Podle data:
 
 mainfo b_clearlog: trichbutton
-  caption=Clear Log
+  caption=Vyčistit log
 
 mainfo trichbutton10: trichbutton
-  caption=Session Log
+  caption=Log relace
 
 mainfo trichbutton4: trichbutton
-  caption=Errors
+  caption=Chyby
 
 mainfo  b_check_errors: trichbutton
-  caption=ReCheck
+  caption=Překontrolovat
 
 
 #==============Settings==========================
 
 mainfo tspacer23: tspacer
-  frame.caption=Interface
+  frame.caption=Rozhraní
 
 mainfo dd_fonts: tdropdownlistedit
-  frame.caption=Font of Interface
+  frame.caption=Font rozhraní
 
 mainfo ie_heightfont: tintegeredit
-  frame.caption=Font Height
+  frame.caption=Výška fontu
 
 mainfo dd_langs: tdropdownlistedit
-  frame.caption=Language
+  frame.caption=Jazyk
 
 mainfo b_set_font: trichstockglyphbutton
-  caption=Set
+  caption=Nastavit
 
 mainfo ber_left_menu: tbooleanedit
-  frame.caption=Show the menu on the left
+  frame.caption=Zobrazit menu nalevo
 
 mainfo dd_themes: tdropdownlistedit
-  frame.caption=Color Theme
+  frame.caption=Barevné téma
 
 mainfo tspacer30: tspacer
-  frame.caption=Package Management
+  frame.caption=Správce balíčků
 
 mainfo b_sinhmirrors: tbooleanedit
-  frame.caption= Synchronize Mirrors Every Time I Update the Package List.
+  frame.caption= Synchronizovat zrcadla při každé aktualizaci seznamu balíčků.
 
 mainfo ber_external: tbooleanedit
-  frame.caption= Execute in an External Terminal.
+  frame.caption= Spustit v externím terminálu.
 
 mainfo be_noscreenshot: tbooleanedit
-  frame.caption= Download Screenshots.
+  frame.caption= Stahovat snímky.
 
 mainfo be_oldtablestyle: tbooleanedit
-  frame.caption=Old table style
+  frame.caption=Staré rozložení
 
 mainfo ber_pos: tbooleanedit
-  frame.caption=Save position and size
+  frame.caption=Uložit pozici a velikost
 
 mainfo ber_reset_options: tbooleanedit
-  frame.caption=Reset install and remove options after each operation
+  frame.caption=Resetovat instalaci a odstranit možnosti po každé operaci
+  #frame.caption=Reset install and remove options after each operation
 
 
 
 
 mainfo tspacer19: tspacer
-  frame.caption=Filter Panel
+  frame.caption=Panel s filtry
 
 mainfo b_filterpanelpos1: tbooleaneditradio
-  frame.caption=On the Right
+  frame.caption=Napravo
 
 mainfo b_filterpanelpos: tbooleaneditradio
-  frame.caption=On the Left
+  frame.caption=Nalevo
 
 
 mainfo tspacer39: tspacer
-  frame.caption=Notifications
+  frame.caption=Oznámení
 
 mainfo be_notifyme: tbooleaneditradio
-  frame.caption=Notify me of completion
+  frame.caption=Oznámení při dokončení
 
 mainfo trichbutton44: trichbutton
-  caption=Utils
+  caption=Nástroje
 
 
 #mainfo trichbutton13: trichbutton
-#  caption=Reload
+#  caption=Znovu načíst
 
 mainfo trichbutton16: trichbutton
-  caption=Save
+  caption=Uložit
 
   
 #========About================================
 mainfo B_ABOUT1: trichbutton
-  hint=About
+  hint=O aplikaci
 
 
 mainfo trichbutton3: trichbutton
-  caption=License
+  caption=Licence
 
 mainfo trichbutton8: trichbutton
-  caption=Tips
+  caption=Typy
 
 mainfo trichbutton9: trichbutton
-  caption=Thanks
+  caption=Poděkování
 
 mainfo trichbutton21: trichbutton
-  caption= Help the project
+  caption= Pomoc projektu
 
 
 mainfo trichbutton47: trichbutton
-  caption=Hot Keys
+  caption=Klávesové zkratky
 
 
 mainfo l_inf: tlabel
-  caption=PacmanXG - A GUI front-end for the Pacman and Yaourt#10utilities, written by Alexandre Minoshi (Almin-Soft Group) #10for the Arch Linux community.#10#10PacmanXG does not require either QT or GTK to run, just X11#10#10    This program is free software; you can redistribute it and/or modify#10    it under the terms of the GNU General Public License as published by#10    the Free Software Foundation; version 2 of the License.#10#10    This program is distributed in the hope that it will be useful,#10    but WITHOUT ANY WARRANTY; without even the implied warranty of#10    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the#10    GNU General Public License for more details.#10#10    You should have received a copy of the GNU General Public License#10    along with this program; if not, write to the Free Software#10    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.#10#10#10Yours,#10Alexandre Minoshi#10http://almin-soft.ru
+  caption=PacmanXG - A GUI front-end pro Pacman a Yaourt#10nástroje, napsal Alexandre Minoshi (Almin-Soft Group) #10pro Arch Linux komunitu.#10#10PacmanXG nepotřebuje pro běh QT ani GTK, pouze X11#10#10    This program is free software; you can redistribute it and/or modify#10    it under the terms of the GNU General Public License as published by#10    the Free Software Foundation; version 2 of the License.#10#10    This program is distributed in the hope that it will be useful,#10    but WITHOUT ANY WARRANTY; without even the implied warranty of#10    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the#10    GNU General Public License for more details.#10#10    You should have received a copy of the GNU General Public License#10    along with this program; if not, write to the Free Software#10    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.#10#10#10Váš,#10Alexandre Minoshi#10http://almin-soft.ru
 
 
 
 mainfo l_tip: tlabel
-  caption=If you wish to work with AUR/Yaourt, don`t forget to uncomment/change USECOLOR=0 in /etc/yaourtrc.
+  caption=Pokud chcete pracovat s AUR/Yaourt, nezpomeňte odkomentovat/změnit USECOLOR=0 v /etc/yaourtrc.
 
 mainfo l_tip3: tlabel
-  caption=Use Key "--FONTALIAS=stf_default,<fontname>" to globally change the font of the interface.
+  caption=Použíjte klávesu "--FONTALIAS=stf_default,<fontname>" pro globální změnu fontu rozhraní.
 
 mainfo tlabel12: tlabel
-  caption=Install the lib32-libxft package to fix the antialiased font problem.
+  caption=Nainstalujte si balíček lib32-libxft pro antialiasing fontu.
 
 mainfo tlabel6: tlabel
-  caption=Switch off VerbosePkgLists in pacman.conf (pacman versions => 4.0.0).
+  caption=Vypněte VerbosePkgLists v pacman.conf (pacman verze => 4.0.0).
 
 mainfo tlabel17: tlabel
-  caption=For x64 systems, xorg-server-utils may need to be installed.
+  caption=Pro systémy x64, xorg-server-utils by měli být nainstalovány.
 
 mainfo tlabel8: tlabel
-  caption=Run PacmanXG with parameter "--exec" for executing a cli operation.#10For example:   pacmanxg --exec "pacman -S opera"#10
+  caption=Spusťtě PacmanXG s parametrem "--exec" pro spuštění cli operace.#10Například:   pacmanxg --exec "pacman -S opera"#10
 
 
 mainfo l_thanks: tlabel
-  caption=MSEide + MSEGUI project#10#10freepascal project#10#10synaptic, app-set, KPackageKit/Apper  projects(interface and functions ideas)#10#10pkgbrowser project (screenshots)#10#10Nosonja project and Marko Gobin (some ideas, testing)#10#10people from archlinux.org.ru/forum (bug reports, ideas):#10#10 - Nebulosa - AUR PKGBUILD support#10 - alexdsp #10 - mehanoid#10 - 32reg - main beta tester for x64 systems :)#10 - Stasisman#10 - valera_cr  #10#10people from bbs.archlinux.org :#10 - karol
+  caption=MSEide + MSEGUI projekt#10#10freepascal projekt#10#10synaptic, app-set, KPackageKit/Apper  projekty(rozhraní a nápady funkcí)#10#10pkgbrowser projekt (snímky)#10#10Nosonja projekt a Marko Gobin (nějaké nápady a testování)#10#10lidé z archlinux.org.ru/forum (hlášení bugů, nápady):#10#10 - Nebulosa - AUR PKGBUILD podpora#10 - alexdsp #10 - mehanoid#10 - 32reg - Hlavní beta tester pro x64 systémy :)#10 - Stasisman#10 - valera_cr  #10#10lidé z bbs.archlinux.org :#10 - karol
 
 
 mainfo tlabel1: tlabel
   frame.caption=Testing
-  caption=#10If you find bugs or have ideas, write to me by e-mail#10#10#10or public on forums.
+  caption=#10Pokud najdete bug nebo máte nějaké nápady, napište mi na e-mail#10#10#10nebo veřejně na fóru.
 
 mainfo tlabel13: tlabel
-  frame.caption=Do you wish donate?
+  frame.caption=Chcete přispět?
 
 mainfo tlabel4: tlabel
-  frame.caption=Are you a translator?
-  caption=Open any file from /opt/pacmanxg4/langs, translate it into your language and send it to us via e-mail at: almin-soft@yandex.ru
+  frame.caption=Jste překladatel?
+  caption=Otevřete nějaký soubor z /opt/pacmanxg4/langs, přeložte ho do svého jazyku a pošlete nám ho přez e-mail na: almin-soft@yandex.ru
 
 mainfo tlabel2: tlabel
-  frame.caption=Are you an artist or designer?
-  caption=Yes, it`s true, the PacmanXG interface is not very nice.#10#10Design a new interface and send a picture to us.
+  frame.caption=Jste umělec nebo designer?
+  caption=Ano, je to pravda, rozhraní PacmanXG není pěkné.#10#10Navrhněte nové rozhraní a pošlete nám obrázek.
 
 
 #mainfo tlabel3: tlabel
-#  caption=Global: #10#10CTRL + U#10#10CTRL + S#10#10#10Package Management: #10#10CTRL + I#10#10CTRL + R#10#10CTRL + #E#10#10CTRL + F#10#10CTRL + L#10#10
+#  caption=Globální: #10#10CTRL + U#10#10CTRL + S#10#10#10Správa balíčků: #10#10CTRL + I#10#10CTRL + R#10#10CTRL + #E#10#10CTRL + F#10#10CTRL + L#10#10
 
 
 #==============PM==========================
 mainfo pm: tpopupmenu
   caption=<separator>
-  caption=Install/Update Packages
-  caption=Remove Packages
-  caption=Cancel Operation
-  caption=Clear Action
+  caption=Instalovat/Aktualizovat balíček
+  caption=Odstranit balíček
+  caption=Zrušit operaci
+  caption=Vyčistit akci
+  #caption=Clear Action
   caption=<separator>
-  caption=Execute
+  caption=Spustit
   caption=<separator>
-  caption=Upgrade System
-  caption=Synchronize Mirrors
+  caption=Aktualizovat systém
+  caption=Synchronizovat zrcadla
   caption=<separator>
-  caption=Downgrade Package
-  caption=Mark Package as "Explicitly Installed"
-  caption=Mark Package as "Installed as a Dependency"
-  caption=Add package to the "Ignore List"
+  caption=Ponížit balíček
+  caption=Označit balíček jako "Explicitně nainstalováno"
+  caption=Označit balíček jako "Nainstalováno jako závislost"
+  caption=Přidat balíček do "Seznam ignorovaných"
   caption=Repacman
 #  caption=<separator>
-#  caption=Open my package list
-#  caption=Add to my package list
+#  caption=Otevřít můj seznam souborů
+#  caption=Přidat do mého seznamu souborů
 
 mainfo pm_filelist: tpopupmenu
   caption=<separator>
-  caption=Open in the Text Editor
-  caption=Open in the File Manager
+  caption=Otevřít v textovém editoru
+  caption=Otevřít ve správci souborů
 
 
 
@@ -421,30 +423,30 @@ mainfo bmenu1: trichbutton
 #================Operation========================
 
 mainfo trichbutton59: trichbutton
-  caption=Cancel/Close
+  caption=Zrušit/Zavřít
 
 
 mainfo trichbutton52: trichbutton
-  caption=Remove Options
+  caption=Odstranit možnosti
 
 
 mainfo s_del_opt: tspacer
-  frame.caption=Delete Options
+  frame.caption=Smazat možnosti
 
 mainfo be_nosave: tbooleanedit
-  frame.caption= --nosave  Instructs pacman to ignore file backup designations. 
+  frame.caption= --nosave  příkaz pro pacman to ignore file backup designations. 
 
 mainfo be_cascade: tbooleanedit
-  frame.caption= --cascade  Remove all target packages, as well as all packages that depend#10 on one or more target packages.
+  frame.caption= --cascade  Odstranit všechny cílené balíčky, as well as all packages that depend#10 on one or more target packages.
 
 mainfo be_recursive: tbooleanedit
-  frame.caption= --recursive  Remove each target specified including all of their dependencies.
+  frame.caption= --recursive  Odstranit každý cíl specified including all of their dependencies.
 
 mainfo be_checkhome: tbooleanedit
-  frame.caption= Check User's Home Directory For Settings.
+  frame.caption= Zkontrolovat uživatelskou domovskou složku pro získání nastavení.
 
 mainfo be_unneeded: tbooleanedit
-  frame.caption= --unneeded  Removes targets (packages) that are not required by any other packages.
+  frame.caption= --unneeded  Odstranit cíle (balíčky) které nepotřebuje žádný jiný balíček.
 
 
 
