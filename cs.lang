@@ -26,18 +26,18 @@ mainfo b_news: trichbutton
 
 mainfo trichbutton5: trichbutton
   caption=Logy
-  hint=Pacman Logs
+  hint=Pacman logy
 
 mainfo trichbutton38: trichbutton
   caption=Nastavení
-  hint=Interface
+  hint=Rozhraní
 
 mainfo b_errors: trichbutton
   caption=Jsou zde nějaké chyby a varování! Klikněte sem pro zobrazení
 
 mainfo l_newver: tlabel
   caption=Nová verze PacmanXG je dostupná!
-  
+
 
 #=======Package Management Page===========
 
@@ -51,7 +51,7 @@ mainfo twf: twidgetgrid
   caption=Instalovaná verze
   caption=Dostupná verze
   caption=Skupina(y)/Hlasy(AUR)
-  caption=Rapozitář
+  caption=Repozitář
   caption=Kategorie
   caption=Popis
   caption=Velikost (MB)
@@ -60,7 +60,8 @@ mainfo b_install_file2: trichbutton
   caption=Soubor
 
 mainfo l_find_package_for_file: tlabel
-  caption=Find Out Which Package a Specific File Belongs To
+  caption=Najít který balíček patří ke konkrétnímu souboru
+
 
 
 mainfo b_findpackage_with_pacman: trichbutton
@@ -75,19 +76,19 @@ mainfo ttabpage16: ttabpage
   caption=Krátké info
 
 mainfo l_pkgname_capt: tlabel
-  caption=Balíček: 
+  caption=Balíček:
 
 mainfo tlabel9: tlabel
-  caption=Rapozitář: 
+  caption=Repozitář:
 
 mainfo l_pkginfo_capt: tlabel
-  caption=Popis: 
+  caption=Popis:
 
 mainfo l_thumb: tlabel
   caption=Bez snímku
 
 mainfo ttabpage17: ttabpage
-  caption=Plné info
+  caption=Plné informace
 
 mainfo ttabpage8: ttabpage
   caption=Seznam souborů balíčku
@@ -207,7 +208,7 @@ mainfo b_dep: trichbutton
   caption=Označit balíček jako "Nainstalováno jako závislost"
 
 mainfo b_dizz: trichbutton
-  caption=DisOwned Packages
+  caption=Neuznané balíčky
 
 
 
@@ -280,7 +281,6 @@ mainfo ber_pos: tbooleanedit
 
 mainfo ber_reset_options: tbooleanedit
   frame.caption=Resetovat instalaci a odstranit možnosti po každé operaci
-  #frame.caption=Reset install and remove options after each operation
 
 
 
@@ -311,7 +311,7 @@ mainfo trichbutton44: trichbutton
 mainfo trichbutton16: trichbutton
   caption=Uložit
 
-  
+
 #========About================================
 mainfo B_ABOUT1: trichbutton
   hint=O aplikaci
@@ -371,7 +371,7 @@ mainfo tlabel13: tlabel
 
 mainfo tlabel4: tlabel
   frame.caption=Jste překladatel?
-  caption=Otevřete nějaký soubor z /opt/pacmanxg4/langs, přeložte ho do svého jazyku a pošlete nám ho přez e-mail na: almin-soft@yandex.ru
+  caption=Otevřete nějaký soubor z /opt/pacmanxg4/langs, přeložte ho do svého jazyku a pošlete nám ho přes e-mail na: almin-soft@yandex.ru
 
 mainfo tlabel2: tlabel
   frame.caption=Jste umělec nebo designer?
@@ -434,7 +434,7 @@ mainfo s_del_opt: tspacer
   frame.caption=Smazat možnosti
 
 mainfo be_nosave: tbooleanedit
-  frame.caption= --nosave  příkaz pro pacman to ignore file backup designations. 
+  frame.caption= --nosave  příkaz pro pacman to ignore file backup designations.
 
 mainfo be_cascade: tbooleanedit
   frame.caption= --cascade  Odstranit všechny cílené balíčky, as well as all packages that depend#10 on one or more target packages.
@@ -451,64 +451,64 @@ mainfo be_unneeded: tbooleanedit
 
 
 mainfo b_continue_del: trichbutton
-  caption=Continue
+  caption=Pokračovat
 
 
 
 mainfo trichbutton53: trichbutton
-  caption=Install Options
+  caption=Možnosti instalace
 
 mainfo s_ins_opt: tspacer
-  frame.caption=Install Options
+  frame.caption=Možnosti instalace
 
 mainfo be_downloadonly: tbooleanedit
-  frame.caption= --downloadonly  Retrieve all packages from the server, but do not install/upgrade anything.
+  frame.caption= --downloadonly  Stáhnout všechny potřebné balíčky ze serveru, ale nic neinstalovat/aktualizovat.
 
 mainfo be_asexpl: tbooleanedit
-  frame.caption= --asexplicit  Install Packages Explicitly.
+  frame.caption= --asexplicit  Instalovat balíčky explicitně.
 
 mainfo be_needed: tbooleanedit
-  frame.caption=--needed   Do not reinstall the targets that are already up to date.
+  frame.caption=--needed   Nepřeinstalovat cíle které jsou aktuální.
 
 mainfo be_asdeps: tbooleanedit
-  frame.caption= --asdeps  Install Packages Non-Explicitly.
+  frame.caption= --asdeps  Instalovat balíčky neexplicitně.
 
 mainfo be_force: tbooleanedit
-  frame.caption= --force  Bypass file conflict checks and overwrite conflicting files. 
+  frame.caption= --force  Obejít kontrolu konfliktů souborů a přepsat všechny konfliktní soubory
 
 
 
 #mainfo s_trans_ask: tspacer
-#  frame.caption=Transaction Options
+#  frame.caption=Možnosti transakce
 
 mainfo be_scriptlet: tbooleanedit
-  frame.caption= --noscriptlet  If an install scriptlet exists, do not execute it. 
+  frame.caption= --noscriptlet  Pookud instalační scriptlet existuje, nespouštět ho.
 
 mainfo be_dbonly: tbooleanedit
-  frame.caption= --dbonly  Adds/Removes the database entry only, leaves all files in place.
+  frame.caption= --dbonly  Pouze přidat/odstranit záznamy v databázi, nechat soubory na jejich místě.
 
 mainfo be_nodeps: tbooleanedit
-  frame.caption= --nodeps  Skips dependency version checks. 
+  frame.caption= --nodeps  Přeskočit kontrolu závislostí.
 
 mainfo be_nodeps2: tbooleanedit
-  frame.caption= --nodeps --nodeps, Skip All Checks. 
+  frame.caption= --nodeps --nodeps, Přeskočit všechny kontroly.
 
 
 mainfo trichbutton61: trichbutton
-  caption=Details
+  caption=Detaily
 
 #========Cache management =======================================
 mainfo b_export_from_cache: trichbutton
-   caption=Copy to ...
+   caption=Kopírovat do ...
 
 mainfo be_overwrite: tbooleanedit
-   frame.caption=Overwrite file(s) if exsists
+   frame.caption=Přepsat soubor(y) pokud existují
 
 mainfo dd_copyto: tdirdropdownedit
-   frame.caption=Select directory
+   frame.caption=Vybrat složku
 #=========== added =================================
 mainfo be_colorize: tbooleanedit
-   frame.caption=Highlight out of date packages
+   frame.caption=Zvýraznit zastaralé balíčky
 
 #========================================
 [MESSAGES]
@@ -554,4 +554,3 @@ edit_PKGBUILD2=After editing, save the file and close your text editor, then to 
 TERMINATEPROCESS=Interrupt the current process?
 File_exsists=File exsists
 #========================================
-
